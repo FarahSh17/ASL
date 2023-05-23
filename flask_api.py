@@ -6,8 +6,8 @@ from PIL import Image
 from utils import load_aslmodel
 from utils import load_variable
 
-MODEL_PATH = r'model/best_model_2.h5'
-MAPPING_PATH = r'model/mapping_2.pkl'
+MODEL_PATH = r'model/best_model.h5'
+MAPPING_PATH = r'model/mapping.pkl'
 
 mapping = load_variable(MAPPING_PATH)
 # reversed_mapping = {value: key for key, value in mapping.items()}
@@ -38,7 +38,7 @@ def predict():
     # Perform post-processing on the prediction (e.g., decode class labels)
 
     # Return the predicted result to the user
-    return "Predicted class: " + str(np.argmax(prediction)) + " -->" +  mapping[np.argmax(prediction)]
+    return "Predicted class:  " +  mapping[np.argmax(prediction)]
 
 if __name__ == '__main__':
     app.run()
