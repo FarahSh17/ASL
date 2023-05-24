@@ -11,10 +11,10 @@
 #
 
 # Features :
-#### ASL Alphabet Recognition: This repository includes a pre-trained deep learning model capable of recognizing individual ASL alphabet signs. The model takes an input image or video frame and predicts the corresponding letter from the ASL alphabet.
+#### ASL Alphabet Recognition: This repository includes a pre-trained deep learning model capable of recognizing individual ASL alphabet signs. The model takes an input image and predicts the corresponding letter from the ASL alphabet.
 
 
-#### ASL Gesture Translation: In addition to alphabet recognition, this repository also offers a gesture translation feature. Users can record ASL gestures or upload gesture videos, and the repository will provide translations into written English.
+
 
 ### Create Virtual Evironment :
 
